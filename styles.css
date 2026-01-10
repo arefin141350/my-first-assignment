@@ -66,11 +66,12 @@
 
 .banner{
      /* border: 1px solid red; */
-    background-image: url("/background-image.jpg");
+    background-image: url("/assets/hero-bg.png");
     background-size: cover;
     background-position: center;
-    height: 75vh;
+    height: 70vh;
     position: relative;
+    align-items: center;
    
 }
 .banner .overlay{
@@ -95,6 +96,9 @@ font-weight: 700;
 line-height: 80px;
 text-align: center;
 }
+.banner .overlay h1 pre{
+    text-align: center;
+}
 .banner .overlay .shorts{
      color: rgb(255, 255, 255);
 
@@ -104,4 +108,49 @@ font-weight: 400;
 font-family: Inter;
 line-height: 24px;
 text-align: center;
+}
+.note-section h2{
+    margin:50px 0 0 0;
+}
+.note-section p{
+    margin:0 0 0 0;
+}
+.note-section h2,p{
+    text-align: center;
+  
+}
+body{
+    width: 100%;
+}
+.box-section {
+  display: flex;              
+  justify-content: center;    
+  align-items: center;       
+  gap: 20px;                  
+  padding: 40px;
+  flex-wrap: wrap;            
+}
+.box-item {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 280px;
+  height: 150px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.box-section .box-item img {
+    padding: 5px;
+    background-color:  rgb(250, 68, 68);
+    border: none;
+    border-radius: 20px;
+}
+.box-section .box-item p{
+    font-size: 12px;
+    font-style: normal;
+    color: rgb(85, 85, 85);
+
 }
