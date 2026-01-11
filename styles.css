@@ -161,7 +161,7 @@ body{
   gap: 40px;
   padding: 60px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 0;
 }
 
 .image-box img {
@@ -210,4 +210,57 @@ body{
 .text-box li {
   margin-bottom: 10px;
 
+}
+.cta-banner {
+  background-color: #fff7e2b9;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Inter', sans-serif;
+  margin: 0px 80px 80px 80px;
+  border-radius: 5px;
+}
+
+
+.cta-banner h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cta-subtext {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.vault-btn:hover {
+  background-color: #4a9a58;
+}
+
+.vault-btn {
+  display: inline-flex;        
+  align-items: center;          
+  gap: 8px;                     
+  padding: 12px 24px;
+  background-color: #5bab67;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vault-btn img {
+  width: 20px;                  
+  height: auto;
+}
+.cta-banner .cta-subtext , .cta-note{
+font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
 }
