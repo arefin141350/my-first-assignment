@@ -154,9 +154,60 @@ body{
     color: rgb(85, 85, 85);
 
 }
-.second-brain{
-     display: flex;              
-  justify-content: center;    
-  align-items: center;     
-   
+.centered-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-box img {
+  height: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-box, .text-box {
+  flex: 1;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-box h3 {
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #5bab67;
+  font-family: inherit;
+}
+
+.text-box h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.text-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #555;
+}
+
+.text-box ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.text-box li {
+  margin-bottom: 10px;
+
 }
