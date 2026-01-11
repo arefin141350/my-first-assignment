@@ -97,6 +97,7 @@
   font-weight: 700;
   line-height: 80px;
   text-align: center;
+  margin-top: 0;
 }
 .banner .overlay h1 pre {
   text-align: center;
@@ -331,3 +332,27 @@ hr {
   margin: 80px auto;
   width: 90%;
 }
+.early-access-wrapper {
+  display: flex;
+  justify-content: center;
+   margin-bottom: 8px;
+
+}
+
+.early-access-button {
+  background-color: white;
+  color: #5bab67;
+  font-weight: 600;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.early-access-button:hover {
+  background-color: #5bab67;  
+  color: white;                
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
